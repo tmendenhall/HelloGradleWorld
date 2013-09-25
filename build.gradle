@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+
+version = 1.0
+
+repositories {
+    mavenCentral()
+}
+
+
+//sourceSets {
+//    test {
+//        resources.srcDir file('src/test/resources')
+//        compileClasspath = sourceSets.main.output
+//    }
+//}
+
+
+dependencies {
+    compile "commons-collections:commons-collections:3.2"
+    compile "org.codehaus.groovy:groovy-all:2.1.7"
+    testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
+    testCompile "junit:junit:4.10"
+}
