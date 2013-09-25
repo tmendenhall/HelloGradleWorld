@@ -15,3 +15,5 @@ assert palendrome.isPalendrome("A") == Boolean.FALSE;
 assert palendrome.isPalendrome("Foo") == Boolean.FALSE;
 
 assert palendrome.isPalendrome("Able was I ere I saw elba") == Boolean.TRUE;
+
+assert palendrome.isPalendrom("a man a plan a canal panama") == Boolean.TRUE;
